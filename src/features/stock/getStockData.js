@@ -2,7 +2,7 @@ const WebSocket = require('ws')
 const fs = require('fs');
 // const { default: send } = require('./AAPL');
 
-const API = {key: }
+const API = {key: ''}
 
 const socket = new WebSocket(`wss://ws.finnhub.io?token=${API.key}`);
 
