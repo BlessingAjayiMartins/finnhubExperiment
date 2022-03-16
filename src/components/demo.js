@@ -17,7 +17,7 @@ const Demo = () => {
       const stockArr = (arr) => {
         const result = []
         for (const prop in arr) {
-          if (prop != 'undefined') {
+          if (prop !== 'undefined') {
             result.push(prop)
           }
           
@@ -102,9 +102,9 @@ const Demo = () => {
 
   
   
-  // store.dispatch(onePercent({check:'CHECK'}))
-  // store.dispatch(threePercent())
-  // store.dispatch(fivePercent())
+  store.dispatch(onePercent({check:'CHECK'}))
+  store.dispatch(threePercent())
+  store.dispatch(fivePercent())
   
 
   return (

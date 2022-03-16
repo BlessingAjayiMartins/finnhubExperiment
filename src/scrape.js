@@ -42,7 +42,7 @@ const ScrapeGainers = () => {
 
     const selector = cheerio.load(html);
 
-    // Here we are telling cheerio that the "<a>" collection 
+    // Here we are telling cheerio cdthat the "<a>" collection 
     //is inside a div with id 'search_resultsRows' and 
     //this div is inside other with id 'search_result_container'.
     //So,'searchResults' is an array of cheerio objects with "<a>" elements
